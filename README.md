@@ -53,17 +53,14 @@ When connected, you will probably see a large stream of data characters. Send a 
 ## Technical Details 
 
 The microcontroller program was written in C/C++ using the Arduino IDE software. It is flashed to a 328P SoC with the Arduino Bootloader on it. To modify the source code, simply download Arduino IDE, make any changes, and press the "Upload" button to see them enacted on the computer.
-Download Arduino IDE -> https://www.arduino.cc/en/Main/Software
-Arduino Getting Started -> https://www.arduino.cc/en/Guide/HomePage
 
 The desktop software is written in Python3.4, using tkinter as the GUI controller and pySerial as the serial controller. To modify the source, download any version of Python 3.X. Make any modifications in your IDE of choice, then run "python mux_controller.py" to run it.
-Download latest python 3.X -> https://www.python.org/downloads/
 
 It is made into a standalone executable for Windows using py2serial (in other words, target computers don't need to have python installed for the program to work). To do that, download the Python 3.X version of py2serial. Go to the src directory, and the run this command: "py -3.4 create_standalone_executable.py py2exe". The standalone executable will be located in src/dist/mutex_display.exe. Note that you most likely need python3.4 to create the standalone executable.
 
 # Project Structure Breakdown
 * arduino_code
-    * The C/C++ code file in the Arduino .ino format. Open this with Arduino Code Studio to flash the arduino with this software.
+    * The C/C++ code file in the Arduino .ino format. Open this with Arduino IDE to flash the arduino with this software.
 * dist
     * When creating a standalone Windows executable, where the final distributed software goes
 * manual
