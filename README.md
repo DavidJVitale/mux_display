@@ -1,7 +1,7 @@
 # Mux Display
 This Python Desktop GUI controls 8 Arduino GPIO pins, which can be hooked up to any multiplexer. Different Mux inputs can be cycled through at a regular rate, or a singular input can be selected. The analog input pin on the Arduino displays 0-5V in real-time, and all those data points can be saved in a .csv file format.
 
-![](http://i983.photobucket.com/albums/ae313/DavidJosephVitale/MuxDisplay_zpsjbu3jf3s.gif)
+![](https://raw.githubusercontent.com/DavidJVitale/mux_display/master/pics/2.gif)
 
 ## Using This Program
 
@@ -9,7 +9,7 @@ Plug the Arduino into the computer and figure out its COM port (on Windows machi
 
 Run the mux_display.py program with Python 3.X. Follow the prompts and connect to the Arduino's COM device. You should see the following program:
 
-![](http://i983.photobucket.com/albums/ae313/DavidJosephVitale/MuxDisplayPicture_zps6dwaml26.jpg)
+![](https://raw.githubusercontent.com/DavidJVitale/mux_display/master/pics/2.jpg)
 
 * 1
     * "Graph Width" means how 'wide' the graph is with respect to time. It's default value, 1000 milliseconds (1 second) means that 1 second of information is being presented on the screen. To change it, change the number in the textbox and press SET to see your change enacted.
