@@ -12,7 +12,6 @@ Author:  - David Vitale
          - DJH (see GraphingWidget class)
          - Dr. R.A. Scheidt (see GraphingWidget class)
 Date:    - 2017-12-07
-Contact: - davidjosephvitale(at)gm4il.com ('a' instead of '4')
 """
 
 import tkinter
